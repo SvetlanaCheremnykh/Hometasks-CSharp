@@ -36,7 +36,8 @@ void PrintArray(double[,] array)
             Console.WriteLine("");
     }
 }
-for (int j = 0; j < array.GetLength(0); j++)
+int array.GetLength = 0
+for (int j = 0, j < array.GetLength(0); j++)
 {
     double sum = 0;
     for (int i = 0; i < array.GetLength(0); i++)
