@@ -19,7 +19,6 @@ for (int i = 0; i < numbers.Length; i++)
 Console.WriteLine();
 Console.WriteLine($"количество значений больше 0 = {sum}");
 
-
 int[] StringToNum(string input)
 {
     int count = 1;
@@ -56,8 +55,6 @@ int[] StringToNum(string input)
     }
     return numbers;
 }
-
-
 void PrintArray(int[] array)
 {
     Console.Write("[ ");
